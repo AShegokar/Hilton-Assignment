@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+.container{
+  margin: 0 auto;
+  width: 800px;
+}
+.box{
+  float: left;
+    width: 20%;
+    background: #655050;
+    border: 1px solid #dedede;
+    height: 102px;
+    border-radius: 6px;
+    margin: 10px;
+    padding: 6px;
+    color: #fff;
+}
+.boxheader {
+  margin-bottom: 8px;
+    font-weight: bold;
+  float: left;
+}
+.box-container {
+  float: left;
+  width: 88%;
+  background: #fff;
+  color: #000;
+  padding: 10px;
+  border-radius: 5px;
+}
+.check{
+  float: left;
+  margin-bottom: 5px;
+  font-size: 13px;
+  font-weight: bold;
+}
+.adultsSection, .childrenSection {
+  width: 50%;
+  float: left;
+}
+.age_section{
+  font-size: 12px;
+  margin-bottom: 8px;
+  margin-top: 3px;
+}
+.footer{
+  clear: both;
+  margin-left: 10px;
+}
+.footer .submitbutton{
+  background: #655050;
+  color: #fff;
+  padding: 8px 16px;
+  border: 0;
+  border-radius: 6px;
+}
+
+table{
+  width: 93%;
+  margin: 15px;
+}
+th {
+  text-align: left;
+}
+td {
+  width:30%;
+}
+.room-selactable{
+  opacity:.5;
+}
